@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Отзыв</title>
+</head>
+<body>
+    <h2>Отзыв</h2>
+    <form>
+        <label for="surname">Фамилия:</label>
+        <input type="text"id="surname" surname="surname" required><br>
+
+        <label for="name">Имя:</label>
+        <input type="text"id="name" name="name" required><br>
+
+        <label for="patronymic">Отчество:</label>
+        <input type="text"id="patronymic" patronymic="patronymic" required><br>
+
+        <label for="birthdate">Дата Рождения:</label>
+        <input type="date"id="birthdate" birthdate="birthdate" required><br>
+
+        <label for="phone">Номер телефона:</label>
+        <input type="tel"id="phone" phone="phone" required><br>
+
+        <label for="education">Образование:</label>
+        <select id="education"id="education">
+<option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+<option value="⭐⭐⭐⭐">⭐⭐⭐⭐ </option>
+<option value="⭐⭐⭐">⭐⭐⭐</option>
+<option value="⭐⭐">⭐⭐</option>
+<option value="⭐">⭐</option>
+        </select><br>
+        <label for="about">Немного о себе:</label><br>
+        <textarea for="about" name="about" rows="5" cols="60"></textarea><br>
+        <input type="submit" value="Отправить">
+        <INPUT TYPE=reset VALUE="Очистить поля формы">
+  </form>
+</body>
+</html>
